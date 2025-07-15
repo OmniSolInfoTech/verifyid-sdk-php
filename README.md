@@ -1,5 +1,10 @@
 # VerifyID PHP SDK
 
+![Packagist Version (custom server)](https://img.shields.io/packagist/v/osit/verifyid-sdk-php)
+![Packagist PHP Version](https://img.shields.io/packagist/dependency-v/osit/verifyid-sdk-php/php)
+![Static Badge](https://img.shields.io/badge/php-Laravel-purple)
+![License](https://img.shields.io/github/license/omnisolinfotech/verifyid-sdk-php)
+
 Official PHP client for [VerifyID.io](https://api.verifyid.io) – seamless integration for KYC, AML, and identity verification.
 
 ## Installation
