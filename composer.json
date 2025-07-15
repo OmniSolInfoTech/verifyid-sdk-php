@@ -1,0 +1,25 @@
+{
+  "name": "verifyid/sdk",
+  "description": "Official PHP SDK for VerifyID.io KYC, AML, Biometric and Document Verification APIs.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    { "name": "Philip Csaplar", "email": "you@example.com" }
+  ],
+  "require": { "php": ">=7.4" },
+  "autoload": {
+    "psr-4": {
+      "VerifyID\\": "src/",
+      "VerifyID\\Laravel\\": "src/Laravel/"
+    }
+  },
+  "require-dev": { "phpunit/phpunit": "^9.0" },
+  "extra": {
+    "laravel": {
+      "providers": ["VerifyID\\Laravel\\VerifyIDServiceProvider"],
+      "aliases": { "VerifyID": "VerifyID\\Laravel\\VerifyIDFacade" }
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
